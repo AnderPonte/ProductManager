@@ -1,3 +1,28 @@
 {
-  "type": "module"
+  "type": "module",
+  "name": "DesafioProductManager",
+  "version": "1.0.0",
+  "main": "fileSystem.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnderPonte/ProductManager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnderPonte/ProductManager/issues"
+  },
+  "homepage": "https://github.com/AnderPonte/ProductManager#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }

@@ -1,6 +1,6 @@
 import { promises as fs } from "fs";
 
-class ProductManager {
+export default class ProductManager {
   constructor() {
     this.patch = "./products.txt";
     this.products = [];
@@ -63,11 +63,17 @@ class ProductManager {
   };
 }
 
-const productos = new ProductManager();
+// const productos = new ProductManager();
 
 // productos.addProduct("titulo1", "descripción 1", 23, "image1", "3456", 10);
 // productos.addProduct("titulo2", "descripción 2", 34, "image2", "4323", 23);
 // productos.addProduct("titulo3", "descripción 3", 56, "image3", "5645", 10);
+// productos.addProduct("titulo4", "descripción 4", 24, "image4", "3423", 34);
+// productos.addProduct("titulo5", "descripción 5", 26, "image5", "4334", 65);
+// productos.addProduct("titulo6", "descripción 6", 57, "image6", "7645", 18);
+// productos.addProduct("titulo7", "descripción 7", 21, "image7", "3256", 13);
+// productos.addProduct("titulo8", "descripción 8", 37, "image8", "4983", 26);
+// productos.addProduct("titulo9", "descripción 9", 53, "image9", "2646", 13);
 
 // productos.getProducts();
 // productos.getProductById(3);
